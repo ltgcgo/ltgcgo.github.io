@@ -2,4 +2,4 @@
 📄 Home for all GitHub Hosted Pages of Lightingale Community.
 
 ## Existing Projects
-* [https://gh.ltgc.cc/octavia/](Octavia)
+* [Octavia](https://gh.ltgc.cc/octavia/) ([repo](https://github.com/ltgcgo/octavia))
