@@ -1,0 +1,29 @@
+User-agent: Google-InspectionTool
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-News
+User-agent: Googlebot-Video
+User-agent: Bingbot
+User-agent: BingPreview
+User-agent: CCBot
+User-agent: DuckDuckBot
+User-agent: DuckDuckGo-Favicons-Bot
+User-agent: gooblog
+User-agent: ichiro
+User-agent: Lycos
+# User-agent: MojeekBot
+# User-agent: OrangeBot
+User-agent: Qwantify
+User-agent: Rambler
+User-agent: Slurp
+User-agent: Twitterbot
+User-agent: WhatsApp
+User-agent: yacybot
+User-agent: Yandex
+User-agent: YandexMobileBot
+User-agent: Yeti
+Disallow: 
+Allow: /
+
+User-agent: *
+Disallow: /
