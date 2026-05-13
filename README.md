@@ -8,4 +8,5 @@
 * [Octavia Stable](/octavia-stable/) ([GitHub](https://github.com/ltgcgo/octavia-stable))
 * [Rochelle](/rochelle/) ([Codeberg](https://codeberg.org/ltgc/rochelle), [GitHub](https://github.com/ltgcgo/rochelle))
 * [Seamstress](/seamstress/) ([Codeberg](https://codeberg.org/ltgc/seamstress), [GitHub](https://github.com/ltgcgo/seamstress))
+* [Shaded Maple](/shaded-maple/) ([Codeberg](https://codeberg.org/ltgc/shaded-maple), [GitHub](https://github.com/ltgcgo/shaded-maple))
 * Swift Book ([Codeberg](https://codeberg.org/ltgc/swiftbook), [GitHub](https://github.com/ltgcgo/swiftbook))
