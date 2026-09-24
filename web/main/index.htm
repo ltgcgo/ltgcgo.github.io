@@ -27,7 +27,7 @@
 		</section>
 		<div class="content px-5" style="margin: -1.5rem 1rem 0;">
 			<p>Welcome to the distributed pages catalogue of the Lightingale Community!</p>
-			<p>You may have accessed this catalogue page from any of our <a class="adaptive-link-kb" href="https://kb.ltgc.cc/ltgc/ds.html">supported points of access</a>. Some entries in the catalogue may or may not be available depending on the entry point you have chosen.</p>
+			<p>You may have accessed this catalogue page from any of our <a class="adaptive-link" href="https://kb.ltgc.cc/ltgc/ds.html">supported points of access</a>. Some entries in the catalogue may or may not be available depending on the entry point you have chosen.</p>
 		</div>
 		<div class="content" style="margin: 1.5rem 1rem 1.5rem;">
 			<table class="table is-striped is-hoverable" style="margin:0 auto;font-size:inherit;" x-data="{}">
@@ -36,6 +36,7 @@
 						<th>Project</th>
 						<th class="hide-sub-desktop">Description</th>
 						<th>Source</th>
+						<th><abbr title="Documentations">Docs</abbr></th>
 						<th>Licence</th>
 					</tr>
 				</thead>
@@ -45,6 +46,7 @@
 							<td><a x-text="entry.name" :href="entry.link"></a></td>
 							<td class="hide-sub-desktop"><span x-show="entry.desc?.length>0" x-text="entry.desc"></span></td>
 							<td><a class="has-text-current" x-show="entry.sources?.codeberg?.length>0" :href="entry.sources?.codeberg" target="_blank"><span class="icon-text icon-codeberg"></span></a><a class="has-text-current" x-show="entry.sources?.github?.length>0" :href="entry.sources?.github" target="_blank"><span class="icon-text icon-github"></span></td>
+							<td><a class="has-text-current" x-show="entry.docs?.jsr?.length>0" :href="entry.docs?.jsr" target="_blank"><span class="icon-text icon-jsr"></span></a><a class="has-text-current adaptive-link" x-show="entry.docs?.kb?.length>0" :href="entry.docs?.kb" target="_blank"><span class="icon-text icon-kb"></span></a></td>
 							<td x-text="entry.licence"></td>
 						</tr>
 					</template>

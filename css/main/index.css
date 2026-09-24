@@ -28,3 +28,9 @@ span.icon-codeberg {
 span.icon-github {
 	mask-image: url('./img/github.svg');
 }
+span.icon-jsr {
+	mask-image: url('./img/jsr.svg');
+}
+span.icon-kb {
+	mask-image: url('./img/mdBook.svg');
+}

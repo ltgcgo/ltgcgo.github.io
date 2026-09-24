@@ -6,6 +6,9 @@
 	"sources": {
 		"codeberg": "https://codeberg.org/ltgc/hyacinth",
 		"github": "https://github.com/ltgcgo/hyacinth"
+	},
+	"docs": {
+		"jsr": "https://jsr.io/@ltgc/kd-tree/doc"
 	}
 }, {
 	"name": "Octavia (Canary)",
@@ -15,6 +18,10 @@
 	"sources": {
 		"codeberg": "https://codeberg.org/ltgc/octavia",
 		"github": "https://github.com/ltgcgo/octavia"
+	},
+	"docs": {
+		"jsr": "https://jsr.io/@ltgc/octavia/doc",
+		"kb": "https://kb.ltgc.cc/octavia/"
 	}
 }, {
 	"name": "Octavia (Stable)",
@@ -24,15 +31,22 @@
 	"sources": {
 		"codeberg": "https://codeberg.org/ltgc/octavia-stable",
 		"github": "https://github.com/ltgcgo/octavia-stable"
+	},
+	"docs": {
+		"jsr": "https://jsr.io/@ltgc/octavia/doc",
+		"kb": "https://kb.ltgc.cc/octavia/"
 	}
 }, {
 	"name": "Rochelle",
-	"link": "./octavia-stable/",
+	"link": "./rochelle/",
 	"licence": "LGPL v3.0",
 	"desc": "Stream splicing utilities.",
 	"sources": {
-		"codeberg": "https://codeberg.org/ltgc/octavia-stable",
-		"github": "https://github.com/ltgcgo/octavia-stable"
+		"codeberg": "https://codeberg.org/ltgc/rochelle",
+		"github": "https://github.com/ltgcgo/rochelle"
+	},
+	"docs": {
+		"jsr": "https://jsr.io/@ltgc/rochelle/doc"
 	}
 }, {
 	"name": "Seamstress",
@@ -42,6 +56,9 @@
 	"sources": {
 		"codeberg": "https://codeberg.org/ltgc/seamstress",
 		"github": "https://github.com/ltgcgo/seamstress"
+	},
+	"docs": {
+		"jsr": "https://jsr.io/@ltgc/seamstress/doc"
 	}
 }, {
 	"name": "Shaded Maple",
