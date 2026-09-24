@@ -1,5 +1,7 @@
 # ltgcgo.github.io
-📄 Home for all GitHub Hosted Pages of Lightingale Community.
+📄 Home for all distributed pages of the Lightingale Community.
+
+Now built with Hyacinth and Bulma CSS.
 
 ## Existing Projects
 * Hyacinth ([Codeberg](https://codeberg.org/ltgc/hyacinth), [GitHub](https://github.com/ltgcgo/hyacinth))

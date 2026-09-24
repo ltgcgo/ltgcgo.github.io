@@ -1,0 +1,30 @@
+body {
+	font-family: sans-serif;
+}
+
+@media (max-width: 720px) {
+	.hide-sub-desktop {
+		display: none;
+	}
+}
+
+.content {
+	overflow-x: auto;
+}
+
+span.icon-text {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0.08em;
+	mask-repeat: no-repeat;
+	mask-position: center;
+	mask-size: 100% 100%;
+	background: currentColor;
+}
+span.icon-codeberg {
+	mask-image: url('./img/codeberg.svg');
+}
+span.icon-github {
+	mask-image: url('./img/github.svg');
+}

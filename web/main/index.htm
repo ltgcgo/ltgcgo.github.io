@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="200" charset="utf-8" />
+	<title>Lightingale Distributed Pages</title>
+	<meta content="true" name="HandheldFriendly" />
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	<meta name="application-name" content="Lightingale Distributed Pages" />
+	<meta name="author" content="Lightingale Community, Lumière Élevé" />
+	<meta name="description" content="Home for all distributed pages of the Lightingale Community." />
+	<meta name="og:title" content="Lightingale Distributed Pages (OpenGraph)" />
+	<meta name="og:description" content="(OpenGraph) Home for all distributed pages of the Lightingale Community." />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Lightingale Distributed Pages (Twitter)" />
+	<meta name="twitter:description" content="(Twitter) Home for all distributed pages of the Lightingale Community." />
+	<link rel="stylesheet" href="./bulma.css" />
+	<link rel="stylesheet" href="./index.css" />
+	<script defer src="./index.js"></script>
+</head>
+<body>
+	<div class="container is-max-desktop">
+		<noscript>JavaScript is required. This page is dynamically generated client-side, powered by AlpineJS and Bulma CSS.</noscript>
+		<section class="hero">
+			<div class="hero-body">
+				<p class="title">Distributed Pages</p>
+			</div>
+		</section>
+		<div class="content px-5" style="margin: -1.5rem 1rem 0;">
+			<p>Welcome to the distributed pages catalogue of the Lightingale Community!</p>
+			<p>You may have accessed this catalogue page from any of our <a class="adaptive-link-kb" href="https://kb.ltgc.cc/ltgc/ds.html">supported points of access</a>. Some entries in the catalogue may or may not be available depending on the entry point you have chosen.</p>
+		</div>
+		<div class="content" style="margin: 1.5rem 1rem 1.5rem;">
+			<table class="table is-striped is-hoverable" style="margin:0 auto;font-size:inherit;" x-data="{}">
+				<thead>
+					<tr>
+						<th>Project</th>
+						<th class="hide-sub-desktop">Description</th>
+						<th>Source</th>
+						<th>Licence</th>
+					</tr>
+				</thead>
+				<tbody>
+					<template x-for="entry in $store.catalogue">
+						<tr>
+							<td><a x-text="entry.name" :href="entry.link"></a></td>
+							<td class="hide-sub-desktop"><span x-show="entry.desc?.length>0" x-text="entry.desc"></span></td>
+							<td><a class="has-text-current" x-show="entry.sources?.codeberg?.length>0" :href="entry.sources?.codeberg" target="_blank"><span class="icon-text icon-codeberg"></span></a><a class="has-text-current" x-show="entry.sources?.github?.length>0" :href="entry.sources?.github" target="_blank"><span class="icon-text icon-github"></span></td>
+							<td x-text="entry.licence"></td>
+						</tr>
+					</template>
+				</tbody>
+			</table>
+		</div>
+		<footer class="footer px-5 py-4">
+			<div class="content has-text-centered">
+				<p>Copyright 2021-2026 &copy; Lightingale Community</p>
+			</div>
+		</footer>
+	</div>
+</body>

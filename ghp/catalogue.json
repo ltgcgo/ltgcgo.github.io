@@ -1,0 +1,55 @@
+[{
+	"name": "KD Tree",
+	"link": "./kd-tree/",
+	"licence": "MIT",
+	"desc": "k-dimentional query tree.",
+	"sources": {
+		"codeberg": "https://codeberg.org/ltgc/hyacinth",
+		"github": "https://github.com/ltgcgo/hyacinth"
+	}
+}, {
+	"name": "Octavia (Canary)",
+	"link": "./octavia/",
+	"licence": "LGPL v3.0",
+	"desc": "Latest build of the Octavia toolchain.",
+	"sources": {
+		"codeberg": "https://codeberg.org/ltgc/octavia",
+		"github": "https://github.com/ltgcgo/octavia"
+	}
+}, {
+	"name": "Octavia (Stable)",
+	"link": "./octavia-stable/",
+	"licence": "LGPL v3.0",
+	"desc": "Stable build of the Octavia toolchain.",
+	"sources": {
+		"codeberg": "https://codeberg.org/ltgc/octavia-stable",
+		"github": "https://github.com/ltgcgo/octavia-stable"
+	}
+}, {
+	"name": "Rochelle",
+	"link": "./octavia-stable/",
+	"licence": "LGPL v3.0",
+	"desc": "Stream splicing utilities.",
+	"sources": {
+		"codeberg": "https://codeberg.org/ltgc/octavia-stable",
+		"github": "https://github.com/ltgcgo/octavia-stable"
+	}
+}, {
+	"name": "Seamstress",
+	"link": "./seamstress/",
+	"licence": "LGPL v3.0",
+	"desc": "General-purpose tag-length-value streams.",
+	"sources": {
+		"codeberg": "https://codeberg.org/ltgc/seamstress",
+		"github": "https://github.com/ltgcgo/seamstress"
+	}
+}, {
+	"name": "Shaded Maple",
+	"link": "./shaded-maple/",
+	"licence": "LGPL v3.0",
+	"desc": "Plug-and-play Service Workers.",
+	"sources": {
+		"codeberg": "https://codeberg.org/ltgc/shaded-maple",
+		"github": "https://github.com/ltgcgo/shaded-maple"
+	}
+}]
