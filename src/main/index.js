@@ -31,14 +31,22 @@ const getAdaptedUrl = function (text) {
 
 {
 	const sourceNoop = new Map();
-	sources.set("localhost", sourceNoop);
-	sources.set("127.0.0.1", sourceNoop);
+	sources.set("gh.ltgc.cc", sourceNoop);
+	const sourceDev = new Map([["https://kb.ltgc.cc/","http://[::1]:3000/"]]);
+	sources.set("localhost", sourceDev);
+	sources.set("127.0.0.1", sourceDev);
 	const sourceDerive = new Map([["https://kb.ltgc.cc/","./kb/"]]);
 	sources.set("", sourceDerive);
 	sources.set("onion", sourceDerive);
 	sources.set("i2p", sourceDerive);
-	const sourceDefault = new Map([]);
-	sources.set("gh.ltgc.cc", sourceDefault);
+	const sourceOnion = new Map([["https://kb.ltgc.cc/","https://kb.ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion"]]);
+	sources.set("ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion", sourceOnion);
+	const sourceEepB32 = new Map([["https://kb.ltgc.cc/","https://kb.3rniool2rdvhlhv6sipgc2khzdemd53b5bvhgzfd432eych7lg7a.b32.i2p"]]);
+	sources.set("3rniool2rdvhlhv6sipgc2khzdemd53b5bvhgzfd432eych7lg7a.b32.i2p", sourceEepB32);
+	const sourceEepSite = new Map([["https://kb.ltgc.cc/","https://kb.ltgc.i2p"]]);
+	sources.set("ltgc.i2p", sourceEepSite);
+	const sourceYgg = new Map([["https://kb.ltgc.cc/","https://kb.ygg.ltgc.cc"]]);
+	sources.set("ygg.ltgc.cc", sourceYgg);
 };
 {
 	const segments = location.hostname.split(".");

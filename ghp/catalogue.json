@@ -2,10 +2,10 @@
 	"name": "KD Tree",
 	"link": "./kd-tree/",
 	"licence": "MIT",
-	"desc": "k-dimentional query tree.",
+	"desc": "k-dimensional query tree.",
 	"sources": {
-		"codeberg": "https://codeberg.org/ltgc/hyacinth",
-		"github": "https://github.com/ltgcgo/hyacinth"
+		"codeberg": "https://codeberg.org/ltgc/kd-tree",
+		"github": "https://github.com/ltgcgo/kd-tree"
 	},
 	"docs": {
 		"jsr": "https://jsr.io/@ltgc/kd-tree/doc"
@@ -69,4 +69,68 @@
 		"codeberg": "https://codeberg.org/ltgc/shaded-maple",
 		"github": "https://github.com/ltgcgo/shaded-maple"
 	}
+}, {
+	"name": "Alpine Linux",
+	"link": "./alpine/",
+	"licence": "(upstream)",
+	"desc": "Proxied Alpine Linux repositories.",
+	"docs": {
+		"kb": "https://dl-cdn.alpinelinux.org/"
+	},
+	"onlyOn": [
+		"localhost", "127.0.0.1",
+		"blob.ltgc.cc", "ds.ltgc.cc", "dds.ltgc.cc",
+		"blob.ltgc.i2p",
+		"blob.ygg.ltgc.cc", "ds.ygg.ltgc.cc", "dds.ygg.ltgc.cc",
+		"blob.ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion",
+		"blob.3rniool2rdvhlhv6sipgc2khzdemd53b5bvhgzfd432eych7lg7a.b32.i2p"
+	]
+}, {
+	"name": "Debian",
+	"link": "./debian/",
+	"licence": "(upstream)",
+	"desc": "Proxied Debian repositories.",
+	"docs": {
+		"kb": "https://deb.debian.org/debian/"
+	},
+	"onlyOn": [
+		"localhost", "127.0.0.1",
+		"blob.ltgc.cc", "ds.ltgc.cc", "dds.ltgc.cc",
+		"blob.ltgc.i2p",
+		"blob.ygg.ltgc.cc", "ds.ygg.ltgc.cc", "dds.ygg.ltgc.cc",
+		"blob.ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion",
+		"blob.3rniool2rdvhlhv6sipgc2khzdemd53b5bvhgzfd432eych7lg7a.b32.i2p"
+	]
+}, {
+	"name": "Nixpkgs",
+	"link": "./nixpkgs/",
+	"licence": "(upstream)",
+	"desc": "Proxied Nixpkgs binary cache.",
+	"docs": {
+		"kb": "https://releases.nixos.org/nixpkgs/"
+	},
+	"onlyOn": [
+		"localhost", "127.0.0.1",
+		"blob.ltgc.cc", "ds.ltgc.cc", "dds.ltgc.cc",
+		"blob.ltgc.i2p",
+		"blob.ygg.ltgc.cc", "ds.ygg.ltgc.cc", "dds.ygg.ltgc.cc",
+		"blob.ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion",
+		"blob.3rniool2rdvhlhv6sipgc2khzdemd53b5bvhgzfd432eych7lg7a.b32.i2p"
+	]
+}, {
+	"name": "openSUSE",
+	"link": "./pub/opensuse/",
+	"licence": "(upstream)",
+	"desc": "Proxied openSUSE repositories.",
+	"docs": {
+		"kb": "https://download.opensuse.org/"
+	},
+	"onlyOn": [
+		"localhost", "127.0.0.1",
+		"blob.ltgc.cc", "ds.ltgc.cc", "dds.ltgc.cc",
+		"blob.ltgc.i2p",
+		"blob.ygg.ltgc.cc", "ds.ygg.ltgc.cc", "dds.ygg.ltgc.cc",
+		"blob.ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion",
+		"blob.3rniool2rdvhlhv6sipgc2khzdemd53b5bvhgzfd432eych7lg7a.b32.i2p"
+	]
 }]
