@@ -62,7 +62,7 @@ const getAdaptedUrl = function (text) {
 		if (matchTest) {
 			matchedSource = matchTest;
 		} else {
-			break;
+			continue;
 		};
 	};
 	console.debug(`Used replacement matcher for: "${matcher}".`);

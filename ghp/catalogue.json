@@ -79,7 +79,7 @@
 	},
 	"onlyOn": [
 		"localhost", "127.0.0.1",
-		"blob.ltgc.cc", "ds.ltgc.cc", "dds.ltgc.cc",
+		"ds.ltgc.cc", "dds.ltgc.cc",
 		"blob.ltgc.i2p",
 		"blob.ygg.ltgc.cc", "ds.ygg.ltgc.cc", "dds.ygg.ltgc.cc",
 		"blob.ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion",
@@ -95,7 +95,7 @@
 	},
 	"onlyOn": [
 		"localhost", "127.0.0.1",
-		"blob.ltgc.cc", "ds.ltgc.cc", "dds.ltgc.cc",
+		"ds.ltgc.cc", "dds.ltgc.cc",
 		"blob.ltgc.i2p",
 		"blob.ygg.ltgc.cc", "ds.ygg.ltgc.cc", "dds.ygg.ltgc.cc",
 		"blob.ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion",
@@ -111,7 +111,7 @@
 	},
 	"onlyOn": [
 		"localhost", "127.0.0.1",
-		"blob.ltgc.cc", "ds.ltgc.cc", "dds.ltgc.cc",
+		"ds.ltgc.cc", "dds.ltgc.cc",
 		"blob.ltgc.i2p",
 		"blob.ygg.ltgc.cc", "ds.ygg.ltgc.cc", "dds.ygg.ltgc.cc",
 		"blob.ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion",
@@ -127,7 +127,7 @@
 	},
 	"onlyOn": [
 		"localhost", "127.0.0.1",
-		"blob.ltgc.cc", "ds.ltgc.cc", "dds.ltgc.cc",
+		"ds.ltgc.cc", "dds.ltgc.cc",
 		"blob.ltgc.i2p",
 		"blob.ygg.ltgc.cc", "ds.ygg.ltgc.cc", "dds.ygg.ltgc.cc",
 		"blob.ltgcgoeqceejmptl2z3j2ofj3osytr3h7xqje6mtvr3i5p3avi443eid.onion",
